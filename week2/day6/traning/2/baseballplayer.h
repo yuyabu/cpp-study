@@ -16,11 +16,11 @@ protected:
     string m_name;
 public:
     //  名前の取得
-    int getNumber();
+    int getNumber(){return m_number;}
     //  種類の取得
-    string getKind();
+    string getKind(){return m_kind;}
     //  名前の取得
-    string getName();
+    string getName(){return m_name;}
     //  プレイ（純粋仮関数)
     virtual void play()=0;
 };

@@ -1,7 +1,8 @@
 #include "pitcher.h"
 #include "catcher.h"
 #include "fielder.h"
- 
+#include "baseballplayer.h"
+
 int main(){
     //  野球選手の配列作成
     BaseballPlayer* players[9];
