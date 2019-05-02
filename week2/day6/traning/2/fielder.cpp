@@ -1,4 +1,4 @@
-i#include "fielder.h"
+#include "fielder.h"
  
 Fielder::Fielder(string name,int number) 
 {
